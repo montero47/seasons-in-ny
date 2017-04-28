@@ -1,0 +1,163 @@
+/* make the background color for every page a nice tone */
+@import url('https://fonts.googleapis.com/css?family=Asar|Courgette');
+
+table {
+	width: 100%;
+}
+
+body {
+	background-color: #4286f4;
+}
+
+html, body {
+    height: 100%; /* IMPORTANT!!! stretches viewport to 100% */
+}	
+
+/* center headings and put some space above and below */
+h1 {
+    text-align: center;
+	/*margin-top: 20px;*/
+	margin-bottom:20px;
+}
+h2 {
+    text-align: center;
+}	
+p {
+	text-align: center;
+	font-size: 18px;
+}
+.spring-theme  {
+	background-color: #ffff4d;
+}
+.summer-theme  {
+	background-color: #adf442;
+}	
+.fall-theme  {
+	background-color: #f4ad42;
+}
+.winter-theme  {
+	background-color: #d3d3d3;
+}
+.to-do-list {
+    font-size: 24px;
+    font-family: Asar;
+    list-style-position: inside;
+    padding-left: 15px;
+}
+.to-do-list span{
+    position:relative;
+    left:-13px;
+}
+.notcentered {
+	text-align: left;
+}	
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#seasonimage {
+    float: right;
+    margin: 0 40px 40px 10px;
+    width: 70%
+}	
+nav ul {
+/*	list-style: none;  */
+	text-align: center;
+	background: #000;
+	padding: 5px 0px;
+}
+nav ul li {
+	display: inline-block;
+	width: 15%;
+}
+nav ul li a {
+	font-size: 24px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 5px;
+	transition: .25s;
+}
+nav ul li a:hover {
+	background: #fff;
+	color: #000;
+	border-radius: 10px;
+	font-weight: 700;
+}
+ #hoverhome a:hover {
+	background: #4286f4;
+}
+ #hoverspring a:hover {
+	background: #ffff4d;
+}
+ #hoversummer a:hover {
+	background: #adf442;
+}
+ #hoverfall a:hover {
+	background: #f4ad42;
+}
+ #hoverwinter a:hover {
+	background: #d3d3d3;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/park-pano.jpg");
+	background-size: cover;
+	background-position: 0% 30%;
+	position: relative;
+}
+
+.main {
+    font-size: 50px;
+    font-family: Courgette;
+    left: 10px;
+    bottom: 10px;
+    text-shadow: 3px 3px 3px #fff;
+    color:red;
+}
+.main-nav {
+    width: 100%;
+    height: 50px;
+    background: black; 
+}
+
+/*.aside {
+    width: 35%;
+    height: 500px;
+    background: yellow;
+    float: left;
+}*/
+
+.mainpix {
+	width: 100%;
+	height: 450px;  
+}	
+
+.main-content {
+    width: 25%;
+    height: 450px; 
+    float: left;
+	border: 1px solid black;
+}     
+.main-footer {
+    width: 100%;
+    height: 25px;
+    clear: both;
+}
+    
